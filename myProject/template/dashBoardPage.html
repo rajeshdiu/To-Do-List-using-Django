@@ -1,0 +1,28 @@
+
+{% extends 'base.html' %}
+
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+</head>
+<body>
+
+<h1>User Dashboard</h1>
+
+<div>
+    <h2>Tasks Overview</h2>
+
+    <p>Total Tasks: {{ total_tasks }}</p>
+    <p>Completed Tasks: {{ completed_tasks }}</p>
+    <p>Upcoming Tasks: {{ upcoming_tasks }}</p>
+</div>
+
+</body>
+</html>
+
+{% endblock %}
